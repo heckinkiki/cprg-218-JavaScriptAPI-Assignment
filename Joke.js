@@ -20,27 +20,27 @@ let SetNewJoke = Category => {
 
 let ProgrammingBtnClicked = () => {
     SetNewJoke("Programming");
-    JokeHeader.innerText = "A random programming joke";
+    JokeHeader.innerText = "A Random Programming Joke 🖥️";
 }
 
 let MiscBtnClicked = () => {
     SetNewJoke("misc");
-    JokeHeader.innerText = "A random misc joke";
+    JokeHeader.innerText = "A Random Miscellaneous Joke 😂";
 }
 
 let PunBtnClicked = () => {
     SetNewJoke("pun");
-    JokeHeader.innerText = "A random pun";
+    JokeHeader.innerText = "A Random Pun 🦞";
 }
 
 let SpookyBtnClicked = () => {
     SetNewJoke("spooky");
-    JokeHeader.innerText = "A random spooky joke";
+    JokeHeader.innerText = "A Random Spooky Joke 🎃";
 }
 
 let ChristmasBtnClicked = () => {
     SetNewJoke("christmas");
-    JokeHeader.innerText = "A random chistmas joke";
+    JokeHeader.innerText = "A Random Christmas Joke 🎄";
 }
 
 ProgrammingJokeBtn.addEventListener("click", ProgrammingBtnClicked);

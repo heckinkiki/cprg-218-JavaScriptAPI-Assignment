@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+body {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    background-image: linear-gradient(pink, beige);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    text-align: center;
+
+}
